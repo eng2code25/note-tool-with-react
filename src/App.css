@@ -1,0 +1,18 @@
+.note-editor {
+  display: block;
+}
+
+.note-editor.show {
+  display: block;
+  gap: 30px;
+  padding: 10px;
+}
+
+.note-input {
+  min-width: 700px;
+  min-height: 200px;
+}
+
+.note-container {
+  margin-top: 50px;
+}
