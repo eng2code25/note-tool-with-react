@@ -1,16 +1,22 @@
-# React + Vite
+# Notes App with Search (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What this is
+A note taking app rebuilt using React.
 
-Currently, two official plugins are available:
+## Features
+- Create, edit, delete notes
+- Search/filter notes
+- Persistent storage (localStorage)
+- Dynamic UI updates using state
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live link
+https://note-tool-with-react.vercel.app/
 
-## React Compiler
+## What I learned
+- React fundamentals (useState, useEffect)
+- Component-based structure
+- State-driven UI
+- Rewriting logic from vanilla JS into React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+This project helped me understand how React simplifies UI updates compared to manual DOM manipulation.
